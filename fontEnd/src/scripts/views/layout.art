@@ -1,0 +1,116 @@
+<header class="header dark-bg">
+   
+    </header>
+    <!--header end-->
+
+    <!--sidebar start-->
+    <aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu">
+          <li>
+            <a class="" href="#/home">
+                        <i class="icon_house_alt"></i>
+                        <span>首页</span>
+                    </a>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+                        <i class="icon_document_alt"></i>
+
+
+                        <span>电影管理</span>
+                        <span class="menu-arrow arrow_carrot-right"></span>
+                    </a>
+            <ul class="sub">
+              <li><a href="#/hotmovie">正在热映</a></li>
+              <li><a href="#/willplay">即将上映</a></li>
+            </ul>
+          </li>
+          <li>
+              <a class="" href="#/cinema">
+                          <i class="icon_genius"></i>
+                          <span>电影院</span>
+                      </a>
+            </li>
+            <li>
+              <a class="" href="#/talk">
+                          <i class="icon_piechart"></i>
+                          <span>聊天室</span>
+  
+                      </a>
+            </li>
+
+
+
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+                        <i class="icon_desktop"></i>
+                        <span>UI Fitures</span>
+                        <span class="menu-arrow arrow_carrot-right"></span>
+                    </a>
+            <ul class="sub">
+              <li><a class="" href="general.html">Components</a></li>
+              <li><a class="" href="buttons.html">Buttons</a></li>
+              <li><a class="" href="grids.html">Grids</a></li>
+            </ul>
+          </li>
+          
+          
+
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+                        <i class="icon_table"></i>
+                        <span>Tables</span>
+                        <span class="menu-arrow arrow_carrot-right"></span>
+                    </a>
+            <ul class="sub">
+              <li><a class="" href="basic_table.html">Basic Table</a></li>
+            </ul>
+          </li>
+
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+                        <i class="icon_documents_alt"></i>
+                        <span>Pages</span>
+                        <span class="menu-arrow arrow_carrot-right"></span>
+                    </a>
+            <ul class="sub">
+              <li><a class="" href="profile.html">Profile</a></li>
+              <li><a class="" href="login.html"><span>Login Page</span></a></li>
+              <li><a class="" href="contact.html"><span>Contact Page</span></a></li>
+              <li><a class="" href="blank.html">Blank Page</a></li>
+              <li><a class="" href="404.html">404 Error</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+    <!--sidebar end-->
+
+    <!--main content start-->
+    <section id="main-content">
+      <section class="wrapper">
+        <div class="row">
+          <div class="col-lg-12 Brdtitle">
+            
+          </div>
+        </div>
+        <div class="row">
+          <!-- chart morris start -->
+          <div class="col-lg-12">
+            <section class="panel">
+                    <div class="panel-body" id="mainBody">
+                  
+                    </div>
+                    </div>
+                  </section>
+            </div>
+            <!-- chart morris start -->
+          </div>
+    </section>
+    <!--main content end-->
+
+     

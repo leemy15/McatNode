@@ -1,0 +1,6 @@
+<h3 class="page-header"><i class="icon_piechart"></i> <div class="maintitle"> </div></h3>
+            <ol class="breadcrumb">
+              {{each breadcrumbTitle}}
+              <li><a href="#/{{$value.split('=')[1]}}">{{$value.split('=')[0]}}</a></li>
+              {{/each}}
+            </ol>

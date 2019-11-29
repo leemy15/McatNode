@@ -1,0 +1,36 @@
+
+.tanchu{
+    height: 160px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius:10px;
+    position: fixed;
+    top: 10px;
+    left: calc(50% - 150px);
+    .tanchuFont{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        line-height: 160px;
+        font-size: 24px;
+        font-weight: 500;
+        color: #999;
+    }   
+}
+
+
+.tanchuPostion{
+    height: 160px;
+    width: 300px;
+    position: fixed;
+    top: 10px;
+    left: calc(50% - 150px);
+}
+
+
+
+.Ifsingout{
+    font-size: 13px;
+    color: #bdbdbd;
+}

@@ -1,0 +1,53 @@
+<form 
+role="form" 
+method="post" 
+id="hotmovieForm"
+action="/api/hotmovie" 
+enctype="multipart/form-data"
+>
+      <div class="form-group">
+        <label for="exampleInputEmail1">编号</label>
+        <input type="text" class="form-control" id="col-lg-1" placeholder="movieId" name="movieId">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">片名</label>
+        <input type="text" class="form-control" id="movieName" placeholder="movieName" name="movieName">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">主演</label>
+        <input type="text" class="form-control" id="movieStart" placeholder="movieStart" name="movieStart">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">上映日期</label>
+        <input type="date" class="form-control" id="showTime" placeholder="showTime" name="showTime">
+      </div>
+      <div class="form-group">
+          <label for="exampleInputEmail1">类型</label>
+          <input type="text" class="form-control" id="movieType" placeholder="movieType" name="movieType">
+        </div>
+      <div class="form-group">
+          <label for="exampleInputEmail1">模式</label>
+          <input type="text" class="form-control" id="version" placeholder="version" name="version">
+      </div>
+      <div class="form-group">
+          <label for="exampleInputEmail1">出版地区</label>
+          <input type="publisher" class="form-control" id="publisher" placeholder="publisher" name="publisher">
+      </div>
+
+      <div class="form-group">
+          <label for="exampleInputEmail1">简介</label>
+          <textarea name="detail" id="detail" cols="30" rows="6" class="form-control" placeholder="detail"></textarea>
+      </div>
+      
+      
+      <div class="form-group">
+          <label for="exampleInputFile">海报图片</label>
+          <input type="file" id="moviePic" name="moviePic">
+      </div>
+      <a href="#/hotmovie"> <div class="btn btn-danger pull-left col-lg-1 gobalk" >返回</div></a>
+      <button type="submit" class="btn btn-primary pull-right col-lg-1 submitadd">添加</button>
+    </form>
+
+
+ 
+       

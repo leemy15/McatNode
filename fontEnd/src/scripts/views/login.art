@@ -1,0 +1,42 @@
+
+
+<div class="login-img3-body" style="height:700px">
+
+    <div class="container">
+  
+      <form class="login-form">
+        <div class="login-wrap">
+          <p class="login-img"><i class="icon_lock_alt"></i></p>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="icon_profile"></i></span>
+            <input type="text" class="form-control" placeholder="Username" name="username" id="username" autofocus>
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+            <input type="password" class="form-control" placeholder="Password" name="password" id="password">
+          </div>
+          <label class="checkbox">
+                  <input type="checkbox" value="remember-me"> Remember me
+                  <span class="pull-right"> <a href="#" class="toRegister"> 没有账号？去注册...</a></span>
+              </label>
+          <button class="btn btn-primary btn-lg btn-block" id="login" type="submit">登录</button>
+          <button class="btn btn-info btn-lg btn-block" type="submit">取消</button>
+  
+              <script>
+                $('.btn-primary').on('click',(e)=>{
+                  e.preventDefault();
+                })
+
+                $('.register').on('click',(e)=>{
+                  e.preventDefault();
+                })
+              </script>
+        
+        </div>
+      </form>
+  
+    </div>
+  
+  
+  </div>
+  <div class="tanchuPostion"></div>

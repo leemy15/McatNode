@@ -1,0 +1,5 @@
+<div class="homeFont"> Mcat 电影信息管理 </div>
+<div class="homeFont2"> 一个极其不专业的电影信息管理平台 </div>
+<div class="homeFont2"> 预先浏览请先登录 </div>
+<div class="homeFont2"> gulp + sem-router + art-template + jQuery + admin-lte + token </div>
+

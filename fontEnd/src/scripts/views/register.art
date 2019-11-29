@@ -1,0 +1,81 @@
+<div class="login-img3-body" style="height:900px">
+  <div class="container">
+    <form class="login-form">
+      <div class="login-wrap">
+        <p class="login-img"><i class="icon_lock_alt"></i></p>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="icon_profile"></i></span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Username"
+            name="username"
+            id="username"
+            autofocus
+          />
+        </div>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Password"
+            name="password"
+            id="password"
+          />
+        </div>
+        <div class="input-group">
+          <span class="input-group-addon"
+            ><i class="icon_documents_alt"></i
+          ></span>
+          <input
+            type="tel"
+            class="form-control"
+            placeholder="tel"
+            name="tel"
+            autofocus
+            id="tel"
+          />
+        </div>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="icon_mail_alt"></i></span>
+          <input
+            type="email"
+            class="form-control"
+            placeholder="E-mail"
+            name="email"
+            autofocus
+            id="email"
+          />
+        </div>
+        <label class="checkbox">
+          <input type="checkbox" id="McatButton" value="remember-me" />
+          同意Mcat服务条款
+          <span class="pull-right">
+            <a href="#" class="toLogin"> 已有账号？去登录...</a></span
+          >
+        </label>
+        <button
+          class="btn btn-primary btn-lg btn-block"
+          id="register"
+          type="submit"
+        >
+          注册
+        </button>
+        <button class="btn btn-info btn-lg btn-block" type="submit">
+          取消
+        </button>
+
+        <script>
+          $(".btn-primary").on("click", e => {
+            e.preventDefault();
+          });
+        </script>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+<div class="tanchuPostion"></div>
